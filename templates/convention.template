@@ -1,0 +1,60 @@
+# CONVENTION DE PARTENARIAT
+
+**Entre les soussignés :**
+
+L'association **Google Developer Group Lille (GDG Lille)**, régie par la loi 1901, déclarée à la Préfecture de Lille le 19 août 2016 et publiée au Journal Officiel du 3 septembre 2016, dont le siège social est à <%= GDG_CITY %>. Représentée par **Fanny DEMEY** , en sa qualité de président d'une part,
+
+Et d'autre part l'entreprise : **<%= COMPANY %>** (numéro de siret: <%= SIRET %>) dont le siège social est au **<%= COMPANY_ADDRESS %>, <%= COMPANY_CP %> - <%= COMPANY_CITY %>**. Représentée par **<%= CONTACT %>**, **<%= ROLE %>**.
+
+**Il a été convenu et arrêté ce qui suit :**
+
+## I - OBJET DE LA CONVENTION
+
+Cette convention est destinée à régir, de la manière la plus complète possible, la relation de partenariat conclue entre l'association et le partenaire, en vue principalement de l’organisation du **DevFest Lille <%= DEVFEST_EDITION %>**.
+
+Elle précise de façon non exhaustive les droits et les obligations principaux des deux cocontractants, étant entendu que ceux-ci peuvent évoluer au fil du temps ; l’objectif principal étant que le partenariat qui unit les deux parties se développe au maximum et dans le sens des intérêts de chacun.
+
+## II - OBLIGATIONS DE L'ASSOCIATION
+
+D’une manière générale, l'association s’engage à donner une forte visibilité du partenaire sur les supports de communication Internet de l’association :
+
+- Logo partenaire et description de son activité sur site web https://devfest.gdglille.org
+- Communication sur les réseaux sociaux : Twitter, LinkedIN et Facebook
+- Présence sur tous les supports de communication (flyers et affiches)
+- <%= NUMBER_PLACE %> entrées gratuites
+- <%= NUMBER_PLACE %> offres d'emploi
+<% if (SPONSORING === 'gold') { %>- Logo sur le TShirt offert aux participants<% } %>
+<% if (SPONSORING !== 'bronze') { %>- Stand le jour de la conférence<% } %>
+<% if (SPONSORING === 'gold') { %>- 1 conférence<% } %>
+
+## III - OBLIGATIONS DU PARTENAIRE
+
+Le partenaire s’engage en contrepartie à verser à l'association le montant suivant, en vue de la réalisation de l’objet de la convention : <%= SPONSORING_TEXT %> euros TTC (<%= SPONSORING_NUMBER %> €). Le paiement du montant sera fait selon les conditions suivantes : paiement à la signature de la convention de partenariat.
+
+**DUREE DE LA CONVENTION**
+
+Le présent partenariat conclu entre l'association et partenaire débutera le <%= START_DATE %> et s’achèvera de plein droit et sans formalité le <%= END_DATE %>.
+
+## V - RESILIATION
+
+Chacune des parties pourra résilier la convention, de plein droit, à tout moment et sans préavis, au cas où l’autre partie manquerait gravement à ses obligations contractuelles. Cette résiliation devra être précédée d’une mise en demeure par lettre recommandée avec A/R restée sans effet durant 30 jours calendaires.
+
+La résiliation à l’initiative du partenaire ne peut en aucun cas donner droit à la restitution de tout ou partie du montant versé par le partenaire lors de la signature de la présente convention.
+
+## VI - MODIFICATIONS
+
+A la demande de l’une ou l’autre partie, des modifications pourront être apportées à la présente convention moyennant accord écrit entre les parties. Ces modifications seront considérées comme étant des modalités complémentaires de la présente convention et en feront partie intégrante.
+
+## VII : CONFIDENTIALITE
+
+Chacune des parties s’engage à considérer les dispositions de la présente convention comme étant confidentielles et à ne pas les communiquer à des tiers sans l’accord exprès et écrit de l’autre partie.
+
+## VIII : LITIGES
+
+Les deux parties s’engagent à régler à l’amiable tout différent éventuel qui pourrait résulter de la présente convention. En cas d’échec, les tribunaux de Lille seront seuls compétents.
+
+Fait à Lille le <%= DATE %> en deux exemplaires originaux
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L'association&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Le partenaire
+
+<img src="./images/signature.png" width="100px" />

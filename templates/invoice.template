@@ -1,0 +1,58 @@
+<img src="./images/logo.jpg" width="100px" />
+
+<div  style="text-align: right"><b>Date : <%= DATE %></b></div>
+
+<div  style="text-align: right"><b>N° FACTURE : <%= INVOICE_NUMBER %></b></div>
+
+<br />
+
+<div  style="text-align: right"><b>Google Developer Group de Lille</b></div>
+
+<div  style="text-align: right"><%= GDG_ADDRESS %></div>
+
+<div  style="text-align: right"><%= GDG_CP %> <%= GDG_CITY %></div>
+
+<br />
+
+<div  style="text-align: right"><b>Destinataire</b></div>
+
+<div  style="text-align: right"><%= COMPANY %></div>
+
+<div  style="text-align: right"><%= COMPANY_ADDRESS %></div>
+
+<div  style="text-align: right"><%= COMPANY_CP %> <%= COMPANY_CITY %></div>
+
+<br />
+
+<table style="width: 100%;" border="1">
+<thead>
+    <th><b>Date</b></th>
+    <th><b>Désignation</b></th>
+    <th><b>Montant</b></th>
+</thead>
+<tbody>
+    <tr>
+        <td><b><%= DATE %></b></td>
+        <td>Sponsoring DevFest Lille <%= DEVFEST_EDITION %></td>
+        <td><%= SPONSORING_NUMBER %> €</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><b>Total TTC</b></td>
+        <td><b><%= SPONSORING_NUMBER %> €</b></td>
+    </tr>
+</tbody>
+<table>
+
+<br />
+
+Facture arrêtée à la somme de <%= SPONSORING_TEXT %> (<%= SPONSORING_NUMBER %>).
+
+Paiement par virement (RIB : 30027 17015 00020671801 21, IBAN FR7630027170150002067180121) à réception de cette facture.
+
+En votre aimable règlement,
+
+<div  style="text-align: right">Fait à <%= GDG_CITY %> le <%= DATE %>.</div>
+
+<div  style="text-align: right">Google Developer Group Lille</div>
+<div  style="text-align: right"><img src="./images/signature.png" width="100px" /></div>
