@@ -2,7 +2,7 @@
 
 **Entre les soussignés :**
 
-L'association **Google Developer Group Lille (GDG Lille)**, régie par la loi 1901, déclarée à la Préfecture de Lille le 19 août 2016 et publiée au Journal Officiel du 3 septembre 2016, dont le siège social est à <%= GDG_CITY %>. Représentée par **Fanny DEMEY** , en sa qualité de président d'une part,
+L'association **Google Developer Group Lille (GDG Lille)**, régie par la loi 1901, déclarée à la Préfecture de Lille le 19 août 2016 et publiée au Journal Officiel du 3 septembre 2016, dont le siège social est à <%= GDG_CITY %>. Représentée par **Fanny DEMEY** , en sa qualité de présidente d'une part,
 
 Et d'autre part l'entreprise : **<%= COMPANY %>** (numéro de siret: <%= SIRET %>) dont le siège social est au **<%= COMPANY_ADDRESS %>, <%= COMPANY_CP %> - <%= COMPANY_CITY %>**. Représentée par **<%= CONTACT %>**, **<%= ROLE %>**.
 
@@ -12,7 +12,7 @@ Et d'autre part l'entreprise : **<%= COMPANY %>** (numéro de siret: <%= SIRET %
 
 Cette convention est destinée à régir, de la manière la plus complète possible, la relation de partenariat conclue entre l'association et le partenaire, en vue principalement de l’organisation du **DevFest Lille <%= DEVFEST_EDITION %>**.
 
-Elle précise de façon non exhaustive les droits et les obligations principaux des deux cocontractants, étant entendu que ceux-ci peuvent évoluer au fil du temps ; l’objectif principal étant que le partenariat qui unit les deux parties se développe au maximum et dans le sens des intérêts de chacun.
+Elle précise de façon non exhaustive les droits et les obligations principaux des deux contractants, étant entendu que ceux-ci peuvent évoluer au fil du temps ; l’objectif principal étant que le partenariat qui unit les deux parties se développe au maximum et dans le sens des intérêts de chacun.
 
 ## II - OBLIGATIONS DE L'ASSOCIATION
 
