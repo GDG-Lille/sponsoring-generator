@@ -1,4 +1,4 @@
-<img src="./images/logo.jpg" width="100px" />
+<img src="./images/logo.png" width="100px" />
 
 <div  style="text-align: right"><b>Date : <%= DATE %></b></div>
 
