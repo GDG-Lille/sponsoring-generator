@@ -33,7 +33,7 @@
 <tbody>
     <tr>
         <td><b><%= DATE %></b></td>
-        <td>Sponsoring DevFest Lille <%= DEVFEST_EDITION %></td>
+        <td>Partenariat DevFest Lille <%= DEVFEST_EDITION %></td>
         <td><%= SPONSORING_NUMBER %> €</td>
     </tr>
     <tr>
