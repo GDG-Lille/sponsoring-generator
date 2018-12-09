@@ -24,7 +24,8 @@ D’une manière générale, l'association s’engage à donner une forte visibi
 - <%= NUMBER_PLACE %> entrées gratuites
 - <%= NUMBER_PLACE %> offres d'emploi
 <% if (SPONSORING === 'gold') { %>- Logo sur le TShirt offert aux participants<% } %>
-<% if (SPONSORING !== 'bronze') { %>- Stand le jour de la conférence<% } %>
+<% if (SPONSORING === 'gold') { %>- Stand (9m²) le jour de la conférence<% } %>
+<% if (SPONSORING === 'silver') { %>- Stand (6m²) le jour de la conférence<% } %>
 <% if (SPONSORING === 'gold') { %>- 1 conférence<% } %>
 
 ## III - OBLIGATIONS DU PARTENAIRE
