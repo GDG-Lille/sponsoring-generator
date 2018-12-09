@@ -22,8 +22,8 @@ D’une manière générale, l'association s’engage à donner une forte visibi
 - Communication sur les réseaux sociaux : Twitter, LinkedIN et Facebook
 - Présence sur tous les supports de communication (flyers et affiches)
 - <%= NUMBER_PLACE %> entrées gratuites
-- <%= NUMBER_PLACE %> offres d'emploi
 <% if (SPONSORING === 'gold') { %>- Logo sur le TShirt offert aux participants<% } %>
+<% if (SPONSORING === 'gold') { %>- Logo sur les vidéos publiées sur Youtube<% } %>
 <% if (SPONSORING === 'gold') { %>- Stand (9m²) le jour de la conférence<% } %>
 <% if (SPONSORING === 'silver') { %>- Stand (6m²) le jour de la conférence<% } %>
 <% if (SPONSORING === 'gold') { %>- 1 conférence<% } %>
