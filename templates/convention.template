@@ -19,14 +19,14 @@ Elle précise de façon non exhaustive les droits et les obligations principaux 
 D’une manière générale, l'association s’engage à donner une forte visibilité du partenaire sur les supports de communication Internet de l’association :
 
 - Logo partenaire et description de son activité sur site web https://devfest.gdglille.org
-- Communication sur les réseaux sociaux : Twitter, LinkedIN et Facebook
-- Présence sur tous les supports de communication (flyers et affiches)
-- <%= NUMBER_PLACE %> entrées gratuites
-<% if (SPONSORING === 'gold') { %>- Logo sur le TShirt offert aux participants<% } %>
-<% if (SPONSORING === 'gold') { %>- Logo sur les vidéos publiées sur Youtube<% } %>
-<% if (SPONSORING === 'gold') { %>- Stand (9m²) le jour de la conférence<% } %>
-<% if (SPONSORING === 'silver') { %>- Stand (6m²) le jour de la conférence<% } %>
-<% if (SPONSORING === 'gold') { %>- 1 conférence<% } %>
+<% if (SPONSORING !== 'CONTRIBUTEUR') { %>- Communication sur les réseaux sociaux : Twitter, LinkedIN et Facebook<% } %>
+<% if (SPONSORING !== 'CONTRIBUTEUR') { %>- Présence sur tous les supports de communication (flyers et affiches)<% } %>
+<% if (SPONSORING !== 'CONTRIBUTEUR') { %>- <%= NUMBER_PLACE %> entrées gratuites<% } %>
+<% if (SPONSORING === 'GOLD') { %>- Logo sur le TShirt offert aux participants<% } %>
+<% if (SPONSORING === 'GOLD') { %>- Logo sur les vidéos publiées sur Youtube<% } %>
+<% if (SPONSORING === 'GOLD') { %>- Stand (9m²) le jour de la conférence<% } %>
+<% if (SPONSORING === 'SILVER') { %>- Stand (6m²) le jour de la conférence<% } %>
+<% if (SPONSORING === 'GOLD') { %>- 1 conférence<% } %>
 
 ## III - OBLIGATIONS DU PARTENAIRE
 

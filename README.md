@@ -34,7 +34,7 @@ curl -X POST  -H "Accept: Application/json" -H "Content-Type: application/json" 
   "contact": "Emmanuel DEMEY",
   "role": "CTO",
   "siret": "123123",
-  "sponsoring": "gold" }'
+  "sponsoring": "GOLD" }'
 ```
 
 The GDG_CITY, GDG_CP=59000 and GDG_ADDRESS give the possibility to configure the address of the GDG.

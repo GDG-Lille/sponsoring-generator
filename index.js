@@ -43,7 +43,7 @@ figlet("Sponsoring Generator", function(err, data) {
         type: "list",
         message: "sponsoring",
         name: "sponsoring",
-        choices: ["gold", "silver", "bronze"]
+        choices: ["GOLD", "SILVER", "BRONZE", "CONTRIBUTEUR"]
       }
     ])
     .then(answers => {
