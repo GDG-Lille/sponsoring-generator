@@ -40,10 +40,21 @@ figlet("Sponsoring Generator", function(err, data) {
         name: "siret"
       },
       {
+        type: "input",
+        message: "PO",
+        name: "PO"
+      },
+      {
         type: "list",
         message: "sponsoring",
         name: "sponsoring",
         choices: ["GOLD", "SILVER", "BRONZE", "CONTRIBUTEUR"]
+      },
+      {
+        type: "list",
+        message: "lang",
+        name: "lang",
+        choices: ["fr", "en"]
       }
     ])
     .then(answers => {

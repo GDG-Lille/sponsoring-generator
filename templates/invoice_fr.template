@@ -4,6 +4,10 @@
 
 <div  style="text-align: right"><b>N° FACTURE : <%= INVOICE_NUMBER %></b></div>
 
+<% if (PO) { %>
+<div  style="text-align: right"><b>PO : <%= PO %></b></div>
+<% } %>
+
 <br />
 
 <div  style="text-align: right"><b>Google Developer Group de Lille</b></div>
@@ -38,6 +42,11 @@
     </tr>
     <tr>
         <td></td>
+        <td>TVA 0%></td>
+        <td>0 €</td>
+    </tr>
+    <tr>
+        <td></td>
         <td><b>Total TTC</b></td>
         <td><b><%= SPONSORING_NUMBER %> €</b></td>
     </tr>
@@ -47,8 +56,9 @@
 <br />
 
 Facture arrêtée à la somme de <%= SPONSORING_TEXT %> (<%= SPONSORING_NUMBER %>).
+TVA non applicable, article 261 du Code général des impôts.
 
-Paiement par virement (RIB : 30027 17015 00020671801 21, IBAN FR7630027170150002067180121) à réception de cette facture.
+Paiement par virement (RIB : 30027 17015 00020671801 21, IBAN FR7630027170150002067180121, BIC CMCIFRPP) à réception de cette facture.
 
 En votre aimable règlement,
 

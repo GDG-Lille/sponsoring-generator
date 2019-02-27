@@ -1,0 +1,75 @@
+
+# Partnership Agreement
+
+**Between the undersigned :**
+
+The **Google Developer Group Lille (GDG Lille)** association --hereafter referred as the Association-, ruled by French law  1901, declared at the prefectural office of Lille on August the 19th, 2016 and published on the "Journal Officiel" on September the 3td, 2016, with social head-quarters located at <%= GDG_CITY %>. Represented by **Fanny DEMEY** , in the condition of president as one of the Parties,
+
+and **<%= COMPANY %>** here referred as the Partner (register number: <%= SIRET %>) with head-quarters located at **<%= COMPANY_ADDRESS %>, <%= COMPANY_CP %> - <%= COMPANY_CITY %>**. Represented by **<%= CONTACT %>**, **<%= ROLE %>**.
+
+** It has been decided and agreed-upon the following terms:**
+
+## I - PURPOSE OF THE AGREEMENT
+
+The purpose of the present Agreement is to thoroughly regulate the Partnership concluded between the Association and the Partner in relation with the organization of the DevFest Lille **<%= DEVFEST_EDITION %>** conference.
+
+This Agreement defines, in a non-exhaustive manner, the main rights and obligations of the two Parties, given the unanimous consent that the former may evolve in time; the main purpose being to develop a strong Partnership for the best interest of both Parties.
+
+
+## II - OBLIGATIONS OF THE ASSOCIATION
+
+Broadly, the Association is committed to give the Partner a large visibility on the Association's communication supports:
+
+- The Partner's logo and a description of the Partner's activity on the web site  https://devfest.gdglille.org
+<% if (SPONSORING !== 'CONTRIBUTEUR') { %>- Communication on social media: Twitter, LinkedIN et Facebook<% } %>
+<% if (SPONSORING !== 'CONTRIBUTEUR') { %>- Presence on every communication support (flyers and posters)<% } %>
+<% if (SPONSORING !== 'CONTRIBUTEUR') { %>- <%= NUMBER_PLACE %> free tickets<% } %>
+<% if (SPONSORING === 'GOLD') { %>- Logo on the t-shirt offered to participants<% } %>
+<% if (SPONSORING === 'GOLD') { %>- Logo on published YouTube videos<% } %>
+<% if (SPONSORING === 'GOLD') { %>- An unique booth (9m²)on the conference day<% } %>
+<% if (SPONSORING === 'SILVER') { %>- An unique booth (6m²) on the conference day<% } %>
+<% if (SPONSORING === 'GOLD') { %>- 1 conference<% } %>
+
+## III - OBLIGATIONS OF THE PARTNER
+
+The Partner is committed to allocate to the Association the amount hereafter, in order to comply 
+with the Agreement purpose: <%= SPONSORING_TEXT %> euros TTC (<%= SPONSORING_NUMBER %> €). The 
+payment has to be done respecting the following conditions: payment of the total amount at the Partnership Agreement signature.
+
+**DURATION OF THE AGREEMENT**
+
+The present Partnership Agreement settled between the Association and the Partner starts the <%= START_DATE %> and 
+it concludes plainly and with no further formalities the <%= END_DATE %>.
+
+## V - AGREEMENT WITHDRAWAL
+
+Any of the Parties can withdraw from the Partnership Agreement, of free will, and at any time, without previous notice, in the case the other Part would severely fail with its contractual obligations.
+The Agreement withdrawal must be preceded of a notice of intention by signed regular mail, and it has no effect for a 30 (thirty) calendar days.
+
+If the withdrawal comes from the initiative of the Partner, he may not pretend to refund, in part or in totality, 
+of the amount allocated at the time of the signature of the present Agreement.
+
+
+## VI - MODIFICATIONS
+
+Upon request from one of the Parties, modifications may be provided to the present Partnership Agreement by means of 
+written consent between Parties. Those modifications will be considered as add-ons to the present Agreement 
+and they will be an integrant part of it.
+
+
+## VII : CONFIDENTIALITY
+
+Both Parties are committed to consider the dispositions of the present Agreement as being confidential 
+and to not communicate them to third parties without written and express consent of the other Part.
+
+
+## VIII : LITIGATION
+
+Both Parties are committed to settle in good will any eventual conflict that may outcome from the 
+present Agreement. In case of failure, the jurisdiction of Lille will be the only competent channel.
+
+Done in Lille, the <%= DATE %> in two original exemplar.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Association&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Partner
+
+<img src="./images/signature.png" width="100px" />

@@ -1,0 +1,62 @@
+<img src="./images/logo.png" width="100px" />
+
+<div  style="text-align: right"><b>Date : <%= DATE %></b></div>
+
+<div  style="text-align: right"><b>INVOICE N° : <%= INVOICE_NUMBER %></b></div>
+
+<br />
+
+<div  style="text-align: right"><b>Google Developer Group de Lille</b></div>
+
+<div  style="text-align: right"><%= GDG_ADDRESS %></div>
+
+<div  style="text-align: right"><%= GDG_CP %> <%= GDG_CITY %></div>
+
+<br />
+
+<div  style="text-align: right"><b>Recipient</b></div>
+
+<div  style="text-align: right"><%= COMPANY %></div>
+
+<div  style="text-align: right"><%= COMPANY_ADDRESS %></div>
+
+<div  style="text-align: right"><%= COMPANY_CP %> <%= COMPANY_CITY %></div>
+
+<br />
+
+<table style="width: 100%;" border="1">
+<thead>
+    <th><b>Date</b></th>
+    <th><b>Denomination</b></th>
+    <th><b>Amount</b></th>
+</thead>
+<tbody>
+    <tr>
+        <td><b><%= DATE %></b></td>
+        <td>DevFest Lille <%= DEVFEST_EDITION %></td>
+        <td><%= SPONSORING_NUMBER %> €</td>
+    </tr>
+     <tr>
+        <td></td>
+        <td>VAT 0%></td>
+        <td>0 €</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><b>Total with VAT</b></td>
+        <td><b><%= SPONSORING_NUMBER %> €</b></td>
+    </tr>
+</tbody>
+<table>
+
+<br />
+
+The level of this invoice is set to <%= SPONSORING_TEXT %> (<%= SPONSORING_NUMBER %>).
+VAT non applicable, under Article 261 of the General Tax Code.
+
+Payment by Bank Transfer (RIB : 30027 17015 00020671801 21, IBAN FR7630027170150002067180121, BIC CMCIFRPP)) after receipt of this invoice.
+
+<div  style="text-align: right">At <%= GDG_CITY %> the <%= DATE %>.</div>
+
+<div  style="text-align: right">Google Developer Group Lille</div>
+<div  style="text-align: right"><img src="./images/signature.png" width="100px" /></div>
