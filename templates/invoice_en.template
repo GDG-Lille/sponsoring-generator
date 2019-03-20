@@ -2,7 +2,7 @@
 
 <div  style="text-align: right"><b>Date : <%= DATE %></b></div>
 
-<div  style="text-align: right"><b>INVOICE N° : <%= INVOICE_NUMBER %></b></div>
+<div  style="text-align: right"><b>PRO FORMA INVOICE</b></div>
 
 <br />
 
